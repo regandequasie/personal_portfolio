@@ -1,0 +1,42 @@
+-- Are there any less popular tracks with similar characteristics to the top 10 songs that would be worth recommending to listeners?
+
+with top_10 as (
+    select distinct
+        avg(danceability_perc) - 5 as danceability_floor,
+        avg(danceability_perc) + 5 as danceability_ceiling,
+        avg(energy_perc) - 5 as energy_floor,
+        avg(energy_perc) + 5 as energy_ceiling,
+        avg(valence_perc) - 5 as valence_floor,
+        avg(valence_perc) + 5 as valence_ceiling
+    from bolt_analytics_dev.bronze.rd_test
+    where track_name in (
+        'Blinding Lights',
+        'Shape of You',
+        'Someone You Loved',
+        'Dance Monkey',
+        'Sunflower - Spider-Man: Into the Spider-Verse',
+        'One Dance',
+        'STAY (with Justin Bieber)',
+        'Believer',
+        'Closer',
+        'Starboy'
+    )
+)
+
+select 
+    track_name
+from bolt_analytics_dev.bronze.rd_test
+    where danceability_perc between (select danceability_floor from top_10) and (select danceability_ceiling from top_10)
+    and energy_perc between (select energy_floor from top_10) and (select energy_ceiling from top_10)
+    and valence_perc between (select valence_floor from top_10) and (select valence_ceiling from top_10)
+;
+
+/*
+Results:
+TQG
+Oi Balde - Ao Vivo
+Te Felicito
+Is There Someone Else?
+Worst Day
+DARARI
+*/
