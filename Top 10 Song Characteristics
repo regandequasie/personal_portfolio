@@ -1,0 +1,16 @@
+-- What characteristics are common among the top 10 most popular tracks?
+select distinct
+    track_name,
+    danceability_perc,
+    energy_perc,
+    acousticness_perc,
+    liveness_perc,
+    speechiness_perc,
+    valence_perc,
+    streams
+from bolt_analytics_dev.bronze.rd_test
+order by streams desc
+limit 10
+;
+
+-- Dancability, energy, and valence are the most important factors for the top 10 songs in 2023
