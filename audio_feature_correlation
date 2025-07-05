@@ -1,0 +1,51 @@
+## R STUDIO CHARTS ##
+
+## load in spotify excel
+library(readxl)
+spotify_2023 <- read_excel("Desktop/spotify-2023.xlsx")
+View(spotify_2023)  
+
+## test normality - no variables are normally distributed.
+shapiro.test(spotify_2023$bpm)
+shapiro.test(spotify_2023$danceability_perc)
+shapiro.test(spotify_2023$valence_perc)
+shapiro.test(spotify_2023$energy_perc)
+shapiro.test(spotify_2023$instrumentalness_perc)
+shapiro.test(spotify_2023$liveness_perc)
+shapiro.test(spotify_2023$speechiness_perc)
+shapiro.test(spotify_2023$streams)
+
+
+library(ggpubr)
+bpm <- ggscatter(spotify_2023, x = "bpm", y = "streams", 
+         add = "reg.line", conf.int = TRUE, 
+         cor.coef = TRUE, cor.method = "kendall",
+         xlab = "Beats per Minute", ylab = "Streams", color = "blueviolet")
+danceability <- ggscatter(spotify_2023, x = "danceability_perc", y = "streams", 
+          add = "reg.line", conf.int = TRUE, cor.coef = TRUE, 
+          cor.method = "kendall", xlab = "% Dancability", 
+          ylab = "Streams", color = "blue")
+valence <- ggscatter(spotify_2023, x = "valence_perc", y = "streams",
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "kendall",
+          xlab = "% Valence", ylab = "Streams", color = "coral1")
+energy <- ggscatter(spotify_2023, x = "energy_perc", y = "streams", 
+          add = "reg.line", conf.int = TRUE, cor.coef = TRUE, 
+          cor.method = "kendall", xlab = "% Energy", ylab = "Streams", 
+          color = "springgreen4")
+instrumentalness <- ggscatter(spotify_2023, x = "instrumentalness_perc", 
+          y = "streams", add = "reg.line", conf.int = TRUE, cor.coef = TRUE, 
+          cor.method = "kendall", xlab = "% Instrumentalness", ylab = "Streams", 
+          color = "deeppink")
+liveness <- ggscatter(spotify_2023, x = "liveness_perc", y = "streams", 
+          add = "reg.line", conf.int = TRUE, cor.coef = TRUE, 
+          cor.method = "kendall", xlab = "% Liveness", ylab = "Streams", 
+          color = "yellow")
+speechiness <- ggscatter(spotify_2023, x = "speechiness_perc", y = "streams", 
+          add = "reg.line", conf.int = TRUE, cor.coef = TRUE, 
+          cor.method = "kendall", xlab = "% Speechiness", ylab = "Streams", 
+          color = "lightsteelblue4")
+
+## produce charts
+grid.arrange(bpm, danceability, valence, energy, ncol=2)
+grid.arrange(instrumentalness, liveness, speechiness, ncol=2)
