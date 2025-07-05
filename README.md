@@ -1,8 +1,9 @@
-# Are there other ways to produce a viral song without being a well-known Artist?
+# Spotify 2023: Uncovering the Science Behind the Hits
+
 In 2023, a small number of songs dominated the streaming charts, with a highly right-skewed distribution in stream counts indicating that most tracks received relatively modest attention while a select few achieved massive success
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/1302f5b7-5c90-49db-adde-0f113df47dc9" />
 
-Key takeaways for Artists...
+Key takeaways for Artists...<br>
 <b> 1. Go Solo for Higher Stream Potential </b> Solo artist tracks tend to outperform collaborations in terms of median stream count. This may reflect stronger personal branding or clearer audience targeting.<br>
 <img width="300" alt="Screenshot 2025-07-05 at 4 22 19 PM" src="https://github.com/user-attachments/assets/15f78a2f-f597-4577-898a-ad9120ab92f1" />
 <img width="50" alt="Screenshot 2025-07-05 at 4 52 53 PM" src="https://github.com/user-attachments/assets/30252667-3fdf-4202-9fe7-e4b32657558f" />
