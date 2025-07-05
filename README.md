@@ -9,8 +9,8 @@ A few positive takeaways show that artists should focus on taking on new songs s
 <img width="912" alt="Screenshot 2025-07-05 at 4 25 29 PM" src="https://github.com/user-attachments/assets/7ee4fe46-b881-43d9-b167-789b9de48bfa" />
 
 While no musical characteristic has a strong and/or significant overall correlation with number of Streams...
-![Chart 1](https://github.com/user-attachments/assets/d043caca-50f6-4d3f-b117-c0465e57409c)
-![Chart 2](https://github.com/user-attachments/assets/d42fc8d7-6c16-413c-84c4-180848555948)
+<img width="500" alt="Screenshot 2025-07-05 at 4 50 08 PM" src="https://github.com/user-attachments/assets/5db7c0ed-429b-4747-983f-705fdadd1d35" />
+<img width="500" alt="Screenshot 2025-07-05 at 4 50 43 PM" src="https://github.com/user-attachments/assets/2f56de69-af21-442f-94db-152ff4136e14" />
 
 ... the top 10 Songs in 2023 showed high percentages of Danceability, Energy, and Valence. Proving that general music listeners can never shy away from a song that lifts the spirit!<br>
 <img width="839" alt="Screenshot 2025-07-05 at 4 42 22 PM" src="https://github.com/user-attachments/assets/66d5bfa3-ab61-459e-b534-45c2bff72250" />
