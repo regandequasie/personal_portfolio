@@ -21,7 +21,7 @@ Key takeaways for Artists...<br>
 <b> 4. Playlist Adds Drive Success. </b> Songs added to more playlists received significantly higher streams. Securing playlist placements, whether editorial or user-generated, appears to be one of the most effective ways to boost visibility and reach.<br>
 <img width="747" alt="Screenshot 2025-07-05 at 4 26 56 PM" src="https://github.com/user-attachments/assets/de823f2d-86f6-4ab2-91b2-9490d1d6d11f" />
 
-In summary, if you're planning your next big release, data suggests::<br>
+In summary, if you're planning your next big release, data suggests:<br>
 1. Stay solo to keep your brand front and center
 2. Aim for a January launch to capitalize on seasonal streaming habits
 3. Create tracks that are danceable, energetic, and emotionally uplifting
