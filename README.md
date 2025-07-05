@@ -3,7 +3,8 @@ In 2023, a small number of songs dominated the streaming charts, with a highly r
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/1302f5b7-5c90-49db-adde-0f113df47dc9" />
 
 A few positive takeaways show that artists should focus on taking on new songs solo...<br>
-<img width="300" alt="Screenshot 2025-07-05 at 4 22 19 PM" src="https://github.com/user-attachments/assets/15f78a2f-f597-4577-898a-ad9120ab92f1" />
+<img width="300" alt="Screenshot 2025-07-05 at 4 22 19 PM" src="https://github.com/user-attachments/assets/15f78a2f-f597-4577-898a-ad9120ab92f1" /><img width="47" alt="Screenshot 2025-07-05 at 4 51 39 PM" src="https://github.com/user-attachments/assets/dd746a12-500a-4855-9192-273bf4507269" />
+
 
 ... as well as aim to release their next new hit in January to maximize their chances of getting higher streams.<br>
 <img width="912" alt="Screenshot 2025-07-05 at 4 25 29 PM" src="https://github.com/user-attachments/assets/7ee4fe46-b881-43d9-b167-789b9de48bfa" />
