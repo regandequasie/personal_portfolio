@@ -16,7 +16,7 @@ While no musical characteristic has a strong and/or significant overall correlat
 ... the top 10 Songs in 2023 showed high percentages of Danceability, Energy, and Valence. Proving that general music listeners can never shy away from a song that lifts the spirit!<br>
 <img width="839" alt="Screenshot 2025-07-05 at 4 42 22 PM" src="https://github.com/user-attachments/assets/66d5bfa3-ab61-459e-b534-45c2bff72250" />
 
-To really solidify the track's success, the goal should be to encourage as many people as possible to add to their playlists.<br>
+Finally, to really solidify the track's success, the goal should be to encourage as many people as possible to add to their playlists.<br>
 <img width="747" alt="Screenshot 2025-07-05 at 4 26 56 PM" src="https://github.com/user-attachments/assets/de823f2d-86f6-4ab2-91b2-9490d1d6d11f" />
 
 So, while your name might have a large influence on how many streams your song will get, try:<br>
