@@ -11,7 +11,7 @@ Key takeaways for Artists...<br>
 <b> 2. January Drops May Lead to Bigger Pops </b> Tracks released in January saw notably higher median streams compared to other months — possibly due to less competition and higher listener engagement after the holidays. <br>
 <img width="912" alt="Screenshot 2025-07-05 at 4 25 29 PM" src="https://github.com/user-attachments/assets/7ee4fe46-b881-43d9-b167-789b9de48bfa" />
 
-<b> 3. Audio Features Alone Don’t Predict Popularity, But They Do Set the Mood </b> While no single musical feature had a strong correlation with stream count across the full dataset...
+<b> 3. Audio Features Alone Don’t Predict Popularity, But They Do Set the Mood </b> While no single musical feature had a strong correlation with stream count across the full dataset...<br>
 <img width="500" alt="Screenshot 2025-07-05 at 4 50 08 PM" src="https://github.com/user-attachments/assets/5db7c0ed-429b-4747-983f-705fdadd1d35" />
 <img width="500" alt="Screenshot 2025-07-05 at 4 50 43 PM" src="https://github.com/user-attachments/assets/2f56de69-af21-442f-94db-152ff4136e14" />
 
